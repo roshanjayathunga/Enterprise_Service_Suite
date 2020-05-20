@@ -1,0 +1,113 @@
+
+@media (max-width: 1370px) {
+    
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    .main-note {
+        padding-bottom: 1rem;
+    }
+
+    .main-topic {
+        font-size: 5rem;
+    }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .main-topic {
+    font-size: 3rem;
+    text-align:center;
+} 
+.abt .section-title h1 {
+  
+    text-align: center;
+}
+.social {
+    display: none;
+}
+.contact-primary{
+    text-align: center;
+    
+}
+.lets-talk-btn{
+    width: 100%;
+}
+.problems-solved-secondry{
+    margin-left: 0;
+}
+.lets-talk-btn-border{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inner-img-one{
+    position: absolute;
+    z-index: -1;
+    bottom: 15px;
+    right: -34%;
+    width: 191%;
+    margin-right: -49%;
+}
+.img-fluid {
+    max-width: 60%;
+    height: auto;
+}
+}
+
+  
