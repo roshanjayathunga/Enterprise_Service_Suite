@@ -69,14 +69,44 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
-  .main-topic {
-    font-size: 3rem;
+
+  .container {
+    padding-top: 0px;
+  }
+/* Navbar */
+
+.nav ul li{
+  padding: 0 !important;
+}
+.menu-icon{
+  padding: 5px 24px;
+}
+nav ul li {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+  /* Main Page Responsive   */
+.main-topic {
+    font-size: 2rem;
     text-align:center;
+    margin-bottom: 0;
 } 
+.sub-topic-top{
+  margin-top: 15px;
+  font-size: 15px;
+}
 .abt .section-title h1 {
   
     text-align: center;
+    font-size: 36px !important;
+}
+.main-home-wrapper>.container {
+  height: 170vh;
+  
 }
 .social {
     display: none;
@@ -87,6 +117,16 @@
 }
 .lets-talk-btn{
     width: 100%;
+    margin: 10px 0;
+}
+.sub-topic{
+  font-size: 15px;
+}
+.main-home-wrapper{
+  height: 80vh;
+}
+.sub-topic-main-page {
+  font-size: 15px;
 }
 .problems-solved-secondry{
     margin-left: 0;
@@ -96,18 +136,149 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.lets-talk-btn-border{
+  margin: 10px 0;
+}
 .inner-img-one{
-    position: absolute;
+    /* position: absolute;
     z-index: -1;
     bottom: 15px;
     right: -34%;
     width: 191%;
-    margin-right: -49%;
+    margin-right: -49%; */
+    display: none;
 }
 .img-fluid {
     max-width: 60%;
     height: auto;
 }
+.quick-contact-line{
+  visibility: hidden;
+}
+.quick-contact-title h5 {
+  font-size: 30px;
+}
+.quick-contact-icon{
+  display: none;
+}
+.quick-contact-info{
+  text-align: center;
+}
+.quick-contact-wrapper>.container{
+  padding-top: 0.5rem;
+}
+.section-sub-title{
+  text-align: center;
+}
+.cus .wedo-service-wrapper__inner.bg__es {
+  padding: 5px;
+}
+.wedo-service-wrapper__inner.bg__es {
+  padding: 5px;
+}
+.wedo-service-wrapper__inner__info{
+  text-align: center;
+}
+.wedo-main-wrapper .col{
+  padding: 0 !important;
+}
+.wedo-service-img{
+  display: none;
+}
+.com-padding{
+  padding: 0;
+}
+.wedo-service-wrapper__inner__info>a {
+  margin-bottom: 10px;
+}
+.wedo-service-wrapper__inner.bg__es {
+  
+  min-height: auto;
+}
+.count-card{
+  border: none;
+}
+.heading-discover-text {
+  margin-left: 10px;
+margin-right: 10px;
+font-size: 16px;
+}
+.img-fluid-rez {
+  margin-left: 0;
+}
+.footer-list {
+ text-align: center;
+}
+.section-title {
+ 
+  text-align: center;
+}
+.text-color-primary {
+  
+  margin-top: 5px;
 }
 
+/* Img */
+
+.main-home-wrapper-other {
+ 
+  height: 40vh;
+ 
+}
+.main-home-wrapper-inf {
+ 
+  
+  height: 40vh; 
+}
+.main-home-wrapper-rezg{
+ 
+  height: 40vh;
+  
+}
+.main-home-wrapper-recpt{
+  height: 40vh;
+}
+.main-home-wrapper-infm{
+  height: 40vh;
+}
+.main-home-wrapper-join{
+ 
+  
+  height: 40vh;
+}
+.main-home-wrapper-dem{
+ 
+  
+  height: 40vh;
+}
+.main-home-wrapper-demn{
+ 
+  height: 40vh;
+ 
+}
+.main-home-wrapper-abt{
+  
+  height: 40vh;
+
+}
+.main-home-wrapper-led{
+ 
+  height: 40vh;
+
+}
+.main-home-wrapper-tch{
+
+  
+  height: 40vh;
+}
+.problems-solved-icon {
+  margin-right: 0;
+
+}
+.problems-solved-icon{
+  display: none;
+}
+
+
+}
   

@@ -4,7 +4,7 @@
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -13,6 +13,10 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/responsive.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 
   <script src="./js/scrollreveal.js"></script>
@@ -176,9 +180,9 @@
             <h6 id="wordchange-sub" class="sub-topic">We know technology can be very challenging with the rapid changes happening
               globlally,<br>
               leverage on us, let us take care of your technology problem.</h6>
-            <button type="button" class="btn lets-talk-btn">Get in Touch</button>
-            <button type="button" class="btn lets-talk-btn-border">Problems We Solved</button>
-            <button type="button" class="btn lets-talk-btn-border">Our services</button>
+            <button type="button" class="btn lets-talk-btn" data-toggle="modal" data-target="#exampleModal">Get in Touch</button>
+            <button type="button" class="btn lets-talk-btn-border"><a class="lets-talk-btn-link" href="./inf-manage.html"> Problems We Solved</a></button>
+            <button type="button" class="btn lets-talk-btn-border" ><a class="lets-talk-btn-link" href="./our-work.html "> Our services</a> </button>
            
             
           </div>
@@ -204,6 +208,60 @@
       </div>
     </div>
   </section>
+  <!-- Data Form -->
+  <section>
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade form-submission usr-crd " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">First Name</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Last Name</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Telephone</label>
+            <input type="number" class="form-control" id="inputAddress" placeholder="Telephone">
+          </div>
+         
+          <div class="form-row">
+            
+            <div class="form-group col-md-12">
+              <label for="inputState">Time Zone</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            
+          </div>
+         
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit"  data-dismiss="modal" class="btn   lets-talk-btn">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
   <!--Section -->
   <section class="sub-text">
   <div class="container ">
@@ -219,54 +277,52 @@
   <!--Section -->
 
   <section>
+    <div class="">
     <div class="quick-contact-wrapper">
-      <div class="container abt">
-
+      <div class=" container abt">
         <div class="quick-contact-info-main">
-          <div class="quick-contact-title">
+        <div class="row full-row">
+          <div class="col-lg-4 col-xl-4 col-mg-4 col-sm-12 p-center">  <div class="quick-contact-title">
             <div class="quick-contact-line"></div>
             <h5>Connect <span>with us</span></h5>
+          </div></div>
+          <div class="col-lg-4 col-xl-4 col-mg-4 col-sm-12 p-center">
+            <div class="quick-contact-call p-center">
+              <div class="quick-contact-icon">
+                <div><i class="fas fa-phone"></i></div>
+              </div>
+              <div class="quick-contact-info">
+                <h6>Call us</h6>
+                <h6>+94 114645212</h6>
+              </div>
+            </div>
           </div>
+          <div class="col-lg-4 col-xl-4 col-mg-4 col-sm-12 p-center">
+            <div class="quick-contact-email p-center">
+              <div class="quick-contact-icon">
+                <div><i class="fas fa-envelope"></i></div>
+              </div>
+              <div class="quick-contact-info">
+                <h6>Email us</h6>
+                <h6>info@rezgateway.com</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+        
           
-          <div class="quick-contact-call p-center">
-            <div class="quick-contact-icon">
-              <div><i class="fas fa-phone"></i></div>
-            </div>
-            <div class="quick-contact-info">
-              <h6>Call us</h6>
-              <h6>+94 114645212</h6>
-            </div>
-          </div>
+         
 
-          <div class="quick-contact-email p-center">
-            <div class="quick-contact-icon">
-              <div><i class="fas fa-envelope"></i></div>
-            </div>
-            <div class="quick-contact-info">
-              <h6>Email us</h6>
-              <h6>info@rezgateway.com</h6>
-            </div>
-          </div>
+        
 
-          <!-- <div class="quick-contact-find">
-            <div class="quick-contact-icon">
-              <div><i class="fas fa-map-marker-alt"></i></div>
-            </div>
-            <div class="quick-contact-info">
-              <h6>Find us</h6>
-              <h6>
-                <address>
-                  Level 4 <br>
-                  Geethanjalee Place <br>
-                  Colombo 3, SL
-                </address>
-              </h6>
-            </div>
-          </div> -->
+        
 
         </div>
       </div>
     </div>
+  </div>
   </section>
  <!--Section -->
  
@@ -395,7 +451,7 @@
 
       <div class="wedo-main-wrapper">
 
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+        <div class=" com-padding col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
           <div class="wedo-service-wrapper scroll-animation-main ">
             <div class="wedo-service-wrapper__inner bg__es">
               <div class="wedo-service-wrapper__inner__info">
@@ -414,7 +470,7 @@
           </div>
         </div>
 
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+        <div class="com-padding col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
           <div class="wedo-service-wrapper scroll-animation-main">
             <div class="wedo-service-wrapper__inner bg__es">
               <div class="wedo-service-wrapper__inner__info">
@@ -433,7 +489,7 @@
           </div>
         </div>
 
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+        <div class="com-padding col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
           <div class="wedo-service-wrapper scroll-animation-main ">
             <div class="wedo-service-wrapper__inner bg__es">
               <div class="wedo-service-wrapper__inner__info">
@@ -454,7 +510,7 @@
           </div>
         </div>
 
-        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
+        <div class="com-padding col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
           <div class="wedo-service-wrapper scroll-animation-main ">
             <div class="wedo-service-wrapper__inner bg__es  ">
               <div class="wedo-service-wrapper__inner__info">

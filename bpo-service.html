@@ -187,7 +187,53 @@
 </section> -->
  <!-- DevOps -->
 
-
+ <div class="modal fade form-submission usr-crd " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">First Name</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="First Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputPassword4">Last Name</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputAddress">Telephone</label>
+            <input type="number" class="form-control" id="inputAddress" placeholder="Telephone">
+          </div>
+         
+          <div class="form-row">
+            
+            <div class="form-group col-md-12">
+              <label for="inputState">Time Zone</label>
+              <select id="inputState" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            
+          </div>
+         
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit"  data-dismiss="modal" class="btn   lets-talk-btn">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 
    <!-- Bpo -->
   <section id="bpo">
@@ -225,7 +271,7 @@
                     <h5 class="heading-discover-tech"><h5 class="heading-discover-tech">•	Email and Chat support </h5>
                     
                     
-                    <h5 class="contact-primary">Click Here to  <button type="button" class="btn lets-talk-btn" style="margin: 0 10px;">Contact Us</button> or Click Here to <button type="button" style="margin: 0 10px;" class="btn lets-talk-btn">Request a Call</button> </h5>
+                    <h5 class="contact-primary"  data-toggle="modal" data-target="#exampleModal" >Click Here to  <button type="button" class="btn lets-talk-btn " style="margin: 0 10px;" ><a class="lets-talk-btn-link" href="./contact-us.html">Contact Us</a></button> or Click Here to <button type="button" style="margin: 0 10px;" class="btn lets-talk-btn">Request a Call</button> </h5>
                       
                     </p>
                   </div>
