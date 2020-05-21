@@ -17,6 +17,9 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+#our .container{
+  padding-top: 0;
+}
 .sub-text .container{
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -191,7 +194,9 @@ nav ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+.custom-li{
+  padding: 0 60px 0 0 !important;
+}
 .e-travel a{
   font-size: 14px;
   color: white;
@@ -297,6 +302,7 @@ border-radius: 2px;}
     /* padding: 24px; */
     text-align: center;
   }
+
 
   .menu-icon {
     display: block;
@@ -943,7 +949,7 @@ footer {
 .footer-list a {
   font-weight: 400;
   color: #E43725;
-  font-size: 17px;
+  font-size: 14px;
 }
 .footer-list a:hover {
   color: white;
@@ -964,6 +970,9 @@ footer h6 {
 }
 .footer-mail a:hover{
   color: #E43725;
+}
+.footer-contact{
+  font-size: 14px;
 }
 
 /* SOCIAL MEDIAL */
@@ -1122,6 +1131,9 @@ footer h6 {
 
 .text-color-primary {
   color: #be4f0c;
+}
+.why-rez-text{
+  font-weight: 600;
 }
 
 .inner-img-one {

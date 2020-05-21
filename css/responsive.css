@@ -78,12 +78,18 @@
 .nav ul li{
   padding: 0 !important;
 }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 .menu-icon{
   padding: 5px 24px;
 }
 nav ul li {
   display: flex;
   justify-content: center;
+}
+.custom-li{
+  padding: 0 !important;
 }
 
 
