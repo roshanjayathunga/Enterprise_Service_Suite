@@ -86,7 +86,10 @@
   text-align: center;
   background: transparent;
 }
-
+    
+nav.black .logo {
+    margin: 12px;
+}
 nav:hover .logo-brand > span > img {
   filter: none;
 }
