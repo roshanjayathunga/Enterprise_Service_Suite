@@ -79,10 +79,26 @@
   padding: 0 !important;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: contents;
+  text-align: center;
+}
+.dropdown-content a {
+  text-align: center;
+  background: transparent;
+}
+
+nav:hover .logo-brand > span > img {
+  filter: none;
+}
+
+nav.black .logo-brand > span > img {
+  filter: none;
 }
 .menu-icon{
   padding: 5px 24px;
+}
+.logo-brand > span > img {
+  margin-top: 0px;
 }
 nav ul li {
   display: flex;
@@ -92,8 +108,19 @@ nav ul li {
   padding: 0 !important;
 }
 
+.lets-talk-btn{
+  font-size: 16px;
+}
+.lets-talk-btn-border{
+  font-size: 16px;
+}
 
-
+.quick-contact-info h6:nth-child(2), .quick-contact-info address {
+  font-size: 1rem;
+}
+.wedo-service-wrapper__inner__info>p {
+  text-align: left;
+}
 
   /* Main Page Responsive   */
 .main-topic {
@@ -214,6 +241,7 @@ font-size: 16px;
 }
 .footer-list {
  text-align: center;
+ padding: 10px;
 }
 .section-title {
  

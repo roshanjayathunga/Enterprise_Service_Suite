@@ -66,10 +66,13 @@
 }
 
 .btn-blue {
-  background-color: #E43725;
+  background-color: #EE5727;
   border-color: transparent;
   color: #ffffff;
   ;
+}
+.travel-tech-btn{
+  display: none;
 }
 
 .section-title h1 {
@@ -107,7 +110,7 @@ nav {
 nav:hover {
   -webkit-box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
   box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.25);
-  background-color: #E43725;
+  background-color: #EE5727;
 }
 
 nav:hover .logo-brand {
@@ -143,7 +146,7 @@ nav.black .logo-brand {
 }
 
 nav.black ul {
-  background-color: #E43725;
+  background-color: #EE5727;
 }
 
 nav.black .logo {
@@ -244,12 +247,12 @@ nav ul li a {
   display: block;
   text-align: left;
   line-height: 40px;
-  background: #E43725;
+  background: #EE5727;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color:  #EE5727;
+  background-color:  #E43725;
 
 }
 
@@ -257,7 +260,7 @@ nav ul li a {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-.direct-btn{ background: #E43725 !important;
+.direct-btn{ background: #EE5727 !important;
 padding: 0  8px;
 border-radius: 2px;}  
 
@@ -501,7 +504,7 @@ border-radius: 2px;}
   font-size: 24px;
 }
 .sub-top-color{
-  color:#E43725;
+  color:#EE5727;
 }
 
 
@@ -518,7 +521,7 @@ border-radius: 2px;}
 .lets-talk-btn {
   padding: 0.5rem 2rem;
   font-size: 13px;
-  background-color: #E43725;
+  background-color: #EE5727;
   border-color: transparent;
   color: #fff;
   border-radius: 100px;
@@ -538,7 +541,7 @@ border-radius: 2px;}
 .lets-talk-btn-border {
   padding: 0.5rem 3rem;
   font-size: 13px;
-  border: 1px solid #E43725;
+  border: 1px solid #EE5727;
   margin: 0 10px;
   color: #fff;
   border-radius: 100px;
@@ -546,8 +549,12 @@ border-radius: 2px;}
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+.call-us{
+  font-size: 17px;
+  font-weight: 500;
+}
 .modal-header{
-  color: #E43725;
+  color: #EE5727;
 }
 .close{
   outline: none !important;
@@ -557,7 +564,7 @@ border-radius: 2px;}
 }
 
 .lets-talk-btn-border:hover {
-  background-color: #E43725;
+  background-color: #EE5727;
 }
 .lets-talk-btn-link{
   text-decoration: none;
@@ -607,7 +614,7 @@ nav ul li a:hover {
 
 .logo-brand {
   font-weight: 400;
-  color: #E43725 !important;
+  color: #EE5727 !important;
 }
 
 .logo-brand > span > img {
@@ -782,14 +789,14 @@ flex-wrap: wrap;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 15px;
-  color:  #E43725;
+  color:  #EE5727;
   display: block;
 }
 .rez-link{
-  color:  #E43725;
+  color:  #EE5727;
 }
 .rez-link:hover{
-  color:  #E43725;
+  color:  #EE5727;
 }
 
 .wedo-service-wrapper__inner__info>a i {
@@ -845,7 +852,7 @@ flex-wrap: wrap;
   font-weight: 400;
   margin-top: 15px;
   margin-bottom: 0;
-  text-align: justify;
+  text-align: inherit;
 }
 
 .bg-gray {
@@ -868,7 +875,8 @@ flex-wrap: wrap;
 }
 
 .count-text{
-  color: #E43725;
+  color: #EE5727;
+  font-weight: 400;
 }
 .count-text-deco{
   font-weight: 500;
@@ -923,7 +931,7 @@ flex-wrap: wrap;
 
 .contact__address__inner address {
   font-weight: 400;
-  color: #E43725;
+  color: #EE5727;
   font-size: 14px;
 }
 
@@ -948,7 +956,7 @@ footer {
 }
 .footer-list a {
   font-weight: 400;
-  color: #E43725;
+  color: #EE5727;
   font-size: 14px;
 }
 .footer-list a:hover {
@@ -966,10 +974,10 @@ footer h6 {
   font-weight: 400;
 }
 .footer-mail a{
-  color: #E43725;
+  color: #EE5727;
 }
 .footer-mail a:hover{
-  color: #E43725;
+  color: #EE5727;
 }
 .footer-contact{
   font-size: 14px;
@@ -1236,8 +1244,8 @@ textarea:focus,
 select:focus,
 select:focus,
 textarea:focus {
-  color: #E43725;
-  border-color: #E43725;
+  color: #EE5727;
+  border-color: #EE5727;
 }
 
 a,
@@ -1400,7 +1408,7 @@ textarea {
   font-size: 21px;
   font-weight: 700;
   line-height: 1.17;
-  color: #E43725;
+  color: #EE5727;
 }
 
 .contact-phone,
@@ -1443,7 +1451,7 @@ textarea {
   margin-right: 2rem;
   width: 50px;
   height: 50px;
-  border: 2px solid  #E43725;
+  border: 2px solid  #EE5727;
   border-radius: 50px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -1451,7 +1459,7 @@ textarea {
 }
 
 .problems-solved-icon i {
-  color: #E43725;
+  color: #EE5727;
   font-size: 28px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -1463,8 +1471,8 @@ textarea {
 }
 
 .problems-solved-details:hover .problems-solved-icon {
-  background:  #E43725;
-  border-color:  #E43725;
+  background:  #EE5727;
+  border-color:  #EE5727;
 }
 
 .problems-solved-inner-title a {
@@ -1562,6 +1570,13 @@ textarea {
   font-size: 40px;
   color: #be4f0c;
 }
+.quick-contact-info a{
+  color: white;
+}
+.quick-contact-info a:hover{
+  color: #be4f0c;
+}
+
 
 .quick-contact-icon {
   margin-right: 0.7rem;
@@ -1613,7 +1628,7 @@ textarea {
 
 .quick-contact-line {
   height: 3px;
-  background-color: #E43725;
+  background-color: #EE5727;
   width: 75px;
   margin-bottom: 3px;
   margin-top: 15px;
@@ -1635,7 +1650,7 @@ textarea {
 }
 
 .tech-text{
-  color: #E43725;
+  color: #EE5727;
 }
 .p-text{
   text-align: justify;
@@ -1735,7 +1750,7 @@ textarea {
 }
 .usr-crd .card-title{
   text-decoration: underline;
-    color: #E43725;
+    color: #EE5727;
 }
 .abt .section-title h1  {
   font-size: 40px !important;
@@ -1776,7 +1791,7 @@ textarea {
   font-size:16px;
   line-height:1.2em;
   color:#000000;
-  background: #E43725;
+  background: #EE5727;
 
   text-align:left;
   text-decoration:none;
@@ -1828,7 +1843,7 @@ textarea {
 .count-card{
   text-align: center;
   height: 80px;
-  border-right: 1px dashed #E43725;
+  border-right: 1px dashed #EE5727;
 }
 .count-carde{
   border-right: 0px solid black;
@@ -1846,14 +1861,14 @@ div.sticky {
 
 
 .contact-box-icon{
-  color: #E43725;
+  color: #EE5727;
   font-size: 26px;
   margin-right: 10px;
 }
 .contact-box-topic{
   font-size: 20px;
   font-weight: 500;
-  color: #E43725;
+  color: #EE5727;
 }
 .contact-box-main{
   font-size: 30px;
@@ -1871,7 +1886,7 @@ div.sticky {
 }
 .form-submission .form-control:focus{
   box-shadow: none !important; 
-  border-color: #E43725;
+  border-color: #EE5727;
 }
 .main-note .btn{
   box-shadow: none;
