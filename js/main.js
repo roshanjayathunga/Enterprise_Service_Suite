@@ -32,7 +32,6 @@ $(document).ready(function () {
                   document.getElementById("navbar").style.top = "0";
             } else {
                   document.getElementById("navbar").style.top = "-120px";
-                  
             }
             prevScrollpos = currentScrollPos;
       }
@@ -45,8 +44,8 @@ $(document).ready(function () {
 
 $(function () {
       count = -1;
-      initTextOne = "Let's talk your problem";
-      initTextTwo = "We know technology can be very challenging with the rapid changes happening globlally, leverage on us, let us take care of your technology problem.";
+      initTextOne = "You want to improve your  ";
+      initTextTwo = " operations by having one Unified IT Platform? We can help";
 
       wordsTopArray = [
             "Want to jumpstart your ",
@@ -89,4 +88,3 @@ $(function () {
 
       }, 8000); // set interval time
 });
-
