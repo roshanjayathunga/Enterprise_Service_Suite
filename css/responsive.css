@@ -128,6 +128,11 @@ nav ul li {
     text-align:center;
     margin-bottom: 0;
 } 
+
+.travel-tech-btn{
+  display: inline;
+}
+
 .sub-topic-top{
   margin-top: 15px;
   font-size: 15px;
