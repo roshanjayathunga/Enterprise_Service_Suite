@@ -151,9 +151,9 @@ nav ul li a {
   font-size: 15px;
 }
 .abt .section-title h1 {
-  
     text-align: center;
-    font-size: 36px !important;
+    font-size: 28px !important;
+    padding-top: 25px;
 }
 .main-home-wrapper>.container {
   height: 170vh;
