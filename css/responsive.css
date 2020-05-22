@@ -85,6 +85,7 @@
 .dropdown-content a {
   text-align: center;
   background: transparent;
+  font-size: 16px;
 }
     
 nav.black .logo {
@@ -107,6 +108,12 @@ nav ul li {
   display: flex;
   justify-content: center;
 }
+.menu .dropdown .dropbtn {
+  font-size: 21px;
+}
+nav ul li a {
+  font-size: 21px;
+}
 .custom-li{
   padding: 0 !important;
 }
@@ -123,6 +130,9 @@ nav ul li {
 }
 .wedo-service-wrapper__inner__info>p {
   text-align: left;
+}
+.menu li:first-child {
+  display: none;
 }
 
   /* Main Page Responsive   */
@@ -321,6 +331,14 @@ font-size: 16px;
   display: none;
 }
 
+/*Our Solutions Pages*/
+.value_wrapper-main {
+  border-radius: 0;
+  -webkit-box-shadow: none; 
+  box-shadow: none; 
+  background: #ffffff;
+  border: 1px solid #ffffff;
+}
 
 }
   
