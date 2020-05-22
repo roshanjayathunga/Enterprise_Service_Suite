@@ -5,6 +5,9 @@
 } */
 
 /* NAV BAR */
+html{
+  overflow-x: auto;
+}
 
 .container {
    padding-top: 1rem;
