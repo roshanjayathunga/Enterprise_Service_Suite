@@ -5,8 +5,8 @@
 } */
 
 /* NAV BAR */
-html{
-  overflow-x: auto;
+body{
+  overflow-x: hidden !important;
 }
 
 .container {
