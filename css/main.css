@@ -1876,7 +1876,7 @@ div.sticky {
   color: #EE5727;
 }
 .contact-box-main{
-  font-size: 30px;
+  font-size: 22px;
     margin-bottom: 10px;
     font-weight: 500;
     margin-top: 10px;
@@ -1886,6 +1886,9 @@ div.sticky {
     font-weight: bold;
     margin-bottom: 20px;
     color: #666;
+}
+.contact-map-img{
+  height: 80%;
 }
 .form-submission .form-control:focus{
   box-shadow: none !important;
