@@ -159,6 +159,10 @@ nav ul li a {
   height: 170vh;
   
 }
+.abt .wedo-service-wrapper__inner.bg__es {
+  height: auto;
+}
+
 .social {
     display: none;
 }
