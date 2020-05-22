@@ -159,6 +159,7 @@ nav.black .logo {
 
 nav.black .logo-brand > span > img {
   filter: brightness(0) invert(1);
+  margin-top: 10px;
 }
 
 nav.black ul li {
