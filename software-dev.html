@@ -56,7 +56,7 @@
                 <a href="./com-info.html">Company Info</a>
                 <a href="./leadership.html">Leadership</a>
                 
-                <a href="#">Our Expertise</a>
+                <a href="./our-exp.html">Our Expertise</a>
                 <a href="./why-us.html">Why REZG</a>
               </div>
             </div>
@@ -68,7 +68,7 @@
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="dropdown-content">
-                <a href="./software-dev.html">Software Development </a>
+           <a href="./software-dev.html">Enterprise Services </a>
                 <a href="./inf-manage.html">Infrastructure Management </a>
                 <a href="./on-demand.html">On Demand Services </a>
                 <a href="./bpo-service.html">BPO Services </a>
@@ -294,9 +294,14 @@
             <input type="number" class="form-control" id="inputAddress" placeholder="Telephone">
           </div>
           <div class="form-group">
+            <label for="inputAddress">Company Name</label>
+            <input type="number" class="form-control" id="inputAddress" placeholder="Company Name">
+          </div>
+          <div class="form-group">
             <label for="inputAddress">Website</label>
             <input type="number" class="form-control" id="inputAddress" placeholder="Website">
           </div>
+          
          
           <div class="form-group">
             
@@ -373,15 +378,17 @@
               <div class="problems-solved-details scroll-animation-sub">
                 
                 
-                
-                <h5 class="heading-discover-tech"><h5 class="heading-discover-tech"><span class="why-rez-text">•	Solution Architecting </span> - Service Orientation, Event Driven, Security, Cloud & Mobile Native  </h5>
-                <h5 class="heading-discover-tech"><h5 class="heading-discover-tech"><span class="why-rez-text">•	System Integration </span> - Enterprise Integration using WSO2 tooling, REST & Web Services </h5> 
-                <h5 class="heading-discover-tech"><h5 class="heading-discover-tech"><span class="why-rez-text">•	System Software </span>- Linux and Windows    </h5> 
-                <h5 class="heading-discover-tech"><h5 class="heading-discover-tech"><span class="why-rez-text">•	Web & Mobile front end </span> - ReactJS , React Native, Flutter  </h5>
-                <h5 class="heading-discover-tech"><h5 class="heading-discover-tech"><span class="why-rez-text">•	Databases </span>– PostgreSQL, MySQL   </h5> 
-                <h5 class="heading-discover-tech"><h5 class="heading-discover-tech"><span class="why-rez-text">•	NoSQL Storage</span> - Elasticsearch   </h5> 
-                <h5 class="heading-discover-tech"><h5 class="heading-discover-tech"><span class="why-rez-text">•	Business Intelligence</span> - Pentaho , Elastic Stack </h5> 
-                <h5 class="heading-discover-tech"><h5 class="heading-discover-tech"><span class="why-rez-text">•	Project Management </span> - Scrum / Kanban</h5> 
+                <ul class="ul-list">
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text"> Solution Architecting</span> - Service Orientation, Event Driven, Security, Cloud & Mobile Native</li>
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text"> 	System Integration</span>  - Enterprise Integration using WSO2 tooling, REST & Web Services</li>
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text">	System Software </span>- Linux and Windows </li>
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text"> Web & Mobile front end</span>- ReactJS , React Native, Flutter</li>
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text">		Databases</span> – PostgreSQL, MySQL </li>
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text">	NoSQL Storage </span>- Elasticsearch </li>
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text">Business Intelligence</span>- Pentaho , Elastic Stack</li>
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text">	Project Management</span> - Scrum / Kanban </li>
+                </ul>
+            
                 <h5 class="contact-primary"  data-toggle="modal" data-target="#exampleModal" >Click Here to  <button type="button" class="btn lets-talk-btn " style="margin: 0 10px;" ><a class="lets-talk-btn-link" href="./contact-us.html">Contact Us</a></button> or Click Here to <button type="button" style="margin: 0 10px;" class="btn lets-talk-btn">Request a Call</button> </h5>
                 
               
@@ -683,10 +690,12 @@
                   points, using cutting edge & cost effective solutions. </h5>
 
                 <h4 class="tech-text">Technologies we support:</h4>
-                <h5 class="heading-discover-tech"><span class="why-rez-text">• Security Monitoring (SOC – 24/7, 365) supports </span> - McAfee,
-                  Alien Vault, ArcSight & MaticWatch SIEM solutions </h5>
-                <h5 class="heading-discover-tech"><span class="why-rez-text">• Firewall Management </span>– Palo Alto, Sophos, Checkpoint,
-                  Fortigate, & pfSense</h5>
+                <ul class="ul-list">
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text"> Security Monitoring (SOC – 24/7, 365) supports </span> - McAfee, Alien Vault, ArcSight & MaticWatch SIEM solutions</li>
+                  <li  class="heading-discover-text scroll-animation-main"><span class="why-rez-text"> 	Firewall Management</span>  – Palo Alto, Sophos, Checkpoint, Fortigate, & pfSense</li>
+        
+                </ul>
+                
                   <h5 class="contact-primary"  data-toggle="modal" data-target="#exampleModal" >Click Here to  <button type="button" class="btn lets-talk-btn " style="margin: 0 10px;" ><a class="lets-talk-btn-link" href="./contact-us.html">Contact Us</a></button> or Click Here to <button type="button" style="margin: 0 10px;" class="btn lets-talk-btn">Request a Call</button> </h5>
 
               </div>
@@ -784,85 +793,7 @@
 
 
 
-  <script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myTabs");
-var btns = header.getElementsByClassName("tab-label");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" activee", "");
-  this.className += " activee";
-  });
-}
-</script>
 
-
-
-  <script>
-
-    $(document).ready(function () {
-
-
-
-      var numItems = $('li.fancyTab').length;
-
-
-      if (numItems == 12) {
-        $("li.fancyTab").width('8.3%');
-      }
-      if (numItems == 11) {
-        $("li.fancyTab").width('9%');
-      }
-      if (numItems == 10) {
-        $("li.fancyTab").width('10%');
-      }
-      if (numItems == 9) {
-        $("li.fancyTab").width('11.1%');
-      }
-      if (numItems == 8) {
-        $("li.fancyTab").width('12.5%');
-      }
-      if (numItems == 7) {
-        $("li.fancyTab").width('14.2%');
-      }
-      if (numItems == 6) {
-        $("li.fancyTab").width('16.666666666666667%');
-      }
-      if (numItems == 5) {
-        $("li.fancyTab").width('20%');
-      }
-      if (numItems == 4) {
-        $("li.fancyTab").width('25%');
-      }
-      if (numItems == 3) {
-        $("li.fancyTab").width('33.3%');
-      }
-      if (numItems == 2) {
-        $("li.fancyTab").width('50%');
-      }
-
-
-
-
-    });
-
-    $(window).load(function () {
-
-      $('.fancyTabs').each(function () {
-
-        var highestBox = 0;
-        $('.fancyTab a', this).each(function () {
-
-          if ($(this).height() > highestBox)
-            highestBox = $(this).height();
-        });
-
-        $('.fancyTab a', this).height(highestBox);
-
-      });
-    });
-  </script>
   <script>
     (function scrollReveal() {
       window.sr = ScrollReveal();

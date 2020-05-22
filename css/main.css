@@ -29,6 +29,9 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+.ul-list{
+  padding: 0;
+}
 
 .container-footer {
   width: 100%;
@@ -156,7 +159,6 @@ nav.black .logo {
 
 nav.black .logo-brand > span > img {
   filter: brightness(0) invert(1);
-  margin-top: 10px;
 }
 
 nav.black ul li {
