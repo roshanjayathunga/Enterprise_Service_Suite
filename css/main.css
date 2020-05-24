@@ -5,9 +5,6 @@
 } */
 
 /* NAV BAR */
-body{
-  overflow-x: hidden !important;
-}
 
 .container {
    padding-top: 1rem;
@@ -162,7 +159,6 @@ nav.black .logo {
 
 nav.black .logo-brand > span > img {
   filter: brightness(0) invert(1);
-  margin-top: 10px;
 }
 
 nav.black ul li {
@@ -1783,6 +1779,9 @@ textarea {
 .show-off{
  display: none;
 }
+.show-off-gap{
+  visibility: hidden;
+}
 /* Slider */
 .social {
   display:block;
@@ -1878,7 +1877,7 @@ div.sticky {
   margin-right: 10px;
 }
 .contact-box-topic{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #EE5727;
 }
@@ -1893,6 +1892,9 @@ div.sticky {
     font-weight: bold;
     margin-bottom: 20px;
     color: #666;
+}
+.contact-box-add{
+  font-size: 14px;
 }
 .contact-map-img{
   height: 80%;
