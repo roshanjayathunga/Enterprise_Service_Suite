@@ -344,7 +344,7 @@ border-radius: 2px;}
 
 /* ////////////////////////////// */
 .main-home-wrapper {
-  background-image: url("../images/abt.jpg");
+  background-image: url("../images/Main-bck/mainpage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -352,8 +352,9 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-other {
-  background-image: url("../images/Main-bck/5118.jpg");
+
+.main-home-wrapper-bposervice{
+  background-image: url("../images/Main-bck/blog.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -361,8 +362,26 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-inf {
-  background-image: url("../images/Main-bck/xc.jpg");
+.main-home-wrapper-software-dev {
+  background-image: url("../images/Main-bck/enterprice-service.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+.main-home-wrapper-com-info {
+  background-image: url("../images/Main-bck/com-info.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+.main-home-wrapper-contact-us {
+  background-image: url("../images/Main-bck/contact-us.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -388,8 +407,8 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-infm{
-  background-image: url("../images/Main-bck/infm.jpg");
+.main-home-wrapper-inf-management{
+  background-image: url("../images/Main-bck/inf-management.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -397,8 +416,26 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-join{
-  background-image: url("../images/Main-bck/joinus.jpg");
+.main-home-wrapper-join-us{
+  background-image: url("../images/Main-bck/join-us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+.main-home-wrapper-our-expertise{
+  background-image: url("../images/Main-bck/our-expertise.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+.main-home-wrapper-our-work{
+  background-image: url("../images/Main-bck/our-work.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -415,8 +452,8 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-demn{
-  background-image: url("../images/Main-bck/ly.jpg");
+.main-home-wrapper-on-demand{
+  background-image: url("../images/Main-bck/on-demand.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -433,8 +470,8 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-led{
-  background-image: url("../images/Main-bck/about.jpg");
+.main-home-wrapper-leadership{
+  background-image: url("../images/Main-bck/leadership.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -442,8 +479,27 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-tch{
-  background-image: url("../images/Main-bck/tech.jpg");
+.main-home-wrapper-technology{
+  background-image: url("../images/Main-bck/technology.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+.main-home-wrapper-blog{
+  background-image: url("../images/Main-bck/blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.main-home-wrapper-why-rezg{
+  background-image: url("../images/Main-bck/Why-RezG.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
