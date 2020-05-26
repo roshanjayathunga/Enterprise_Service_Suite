@@ -1030,7 +1030,9 @@ flex-wrap: wrap;
   margin-bottom: 1rem;
   font-weight: 400;
 }
-
+.address-dev-center{
+  margin-top: 100px;
+}
 footer {
   padding: 12px;
   text-align: center;
@@ -1988,6 +1990,10 @@ div.sticky {
   box-shadow: none !important; 
   border-color: #EE5727;
 }
+.form-control:focus{
+  box-shadow: none !important; 
+  border-color: #EE5727;
+} 
 .main-note .btn{
   box-shadow: none;
 }
