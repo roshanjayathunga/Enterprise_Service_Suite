@@ -157,7 +157,7 @@ nav.black ul {
 }
 
 nav.black .logo {
-  margin: 0px 46px;
+  
 }
 
 nav.black .logo-brand > span > img {
@@ -170,6 +170,7 @@ nav.black ul li {
   -o-transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
   transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
 }
+
 
 nav ul li {
   display: inline-block;
