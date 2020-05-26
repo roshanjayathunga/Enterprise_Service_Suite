@@ -343,6 +343,12 @@ font-size: 16px;
   background: #ffffff;
   border: 1px solid #ffffff;
 }
+/* Leadership */
+.usr-crd .card {
+  height: 30rem !important;
+  margin: 20px 0;
+  width: 21rem;
+}
 
 }
   

@@ -354,7 +354,7 @@ border-radius: 2px;}
 }
 
 .main-home-wrapper-bposervice{
-  background-image: url("../images/Main-bck/blog.jpg");
+  background-image: url("../images/Main-bck/bposervice.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -436,6 +436,24 @@ border-radius: 2px;}
 }
 .main-home-wrapper-our-work{
   background-image: url("../images/Main-bck/our-work.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+.main-home-wrapper-news{
+  background-image: url("../images/Main-bck/News.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  width: 100%;
+  overflow: hidden;
+}
+.main-home-wrapper-blog{
+  background-image: url("../images/Main-bck/News.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1017,6 +1035,9 @@ footer {
   padding: 12px;
   text-align: center;
   background-color: #000000;
+}
+.abt-footer{
+  max-width: 1400px !important;
 }
 .footer-list{
   list-style: none;
@@ -1815,6 +1836,7 @@ textarea {
 .usr-crd .card{
   height: 25rem !important;
   margin: 20px 0;
+  width: 18rem;
 }
 .usr-crd .card-title{
   text-decoration: underline;
