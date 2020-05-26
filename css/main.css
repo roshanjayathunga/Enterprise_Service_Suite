@@ -56,6 +56,9 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .2);
   color: #ffffff;
 }
+.btn.focus, .btn:focus {
+  box-shadow: none !important;
+}
 
 .btn i {
   -webkit-transition: all 0.4s ease-in-out;
@@ -988,7 +991,7 @@ footer h6 {
   color: #EE5727;
 }
 .footer-contact{
-  font-size: 12px;
+  font-size: 11px;
 }
 
 /* SOCIAL MEDIAL */
