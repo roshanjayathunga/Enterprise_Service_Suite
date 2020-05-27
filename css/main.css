@@ -398,15 +398,7 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-recpt{
-  background-image: url("../images/Main-bck/recpt.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  width: 100%;
-  overflow: hidden;
-}
+
 .main-home-wrapper-inf-management{
   background-image: url("../images/Main-bck/inf-management.jpg");
   background-repeat: no-repeat;
@@ -461,15 +453,7 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-dem{
-  background-image: url("../images/Main-bck/nn.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  width: 100%;
-  overflow: hidden;
-}
+
 .main-home-wrapper-on-demand{
   background-image: url("../images/Main-bck/on-demand.jpg");
   background-repeat: no-repeat;
@@ -479,15 +463,7 @@ border-radius: 2px;}
   width: 100%;
   overflow: hidden;
 }
-.main-home-wrapper-abt{
-  background-image: url("../images/Main-bck/abt.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  width: 100%;
-  overflow: hidden;
-}
+
 .main-home-wrapper-leadership{
   background-image: url("../images/Main-bck/leadership.jpg");
   background-repeat: no-repeat;
@@ -844,7 +820,7 @@ flex-wrap: wrap;
   box-shadow: -1px 7px 51px 0px rgba(75, 81, 91, 0.18);
 }
 
-.abt .wedo-service-wrapper__inner.bg__es {
+.sub-section .wedo-service-wrapper__inner.bg__es {
   height: 400px;
 }
 .problems-solved-main .wedo-service-wrapper__inner.bg__es {
@@ -1038,7 +1014,7 @@ footer {
   text-align: center;
   background-color: #000000;
 }
-.abt-footer{
+.custom-footer{
   max-width: 1400px !important;
 }
 .footer-list{
@@ -1844,7 +1820,7 @@ textarea {
   text-decoration: underline;
     color: #EE5727;
 }
-.abt .section-title h1  {
+.sub-section .section-title h1  {
   font-size: 40px !important;
 }
 .sub-primary-text{

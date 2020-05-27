@@ -111,7 +111,7 @@
 
   <section>
     <div class="main-home-wrapper-software-dev">
-      <div class="container  abt main-page-com-space">
+      <div class="container  sub-section main-page-com-space">
         <div class="row">
           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 main-note scroll-animation-main">
 
@@ -132,7 +132,7 @@
 
           <div class="social">
             <a href="#app" >Application Development </a>
-            <a href="#tech" >Technology Stack </a>
+            <!-- <a href="#tech" >Technology Stack </a> -->
              <a href="#digi" >Digitalization </a> 
             <a href="#ai" >AI as a Service</a>
             <a href="#buis" >Business Continuity </a>
@@ -144,7 +144,7 @@
 
   <!-- App Dev -->
   <section id="app" class="bg-gray">
-    <div class="container  abt">
+    <div class="container  sub-section">
       <div class="section-title  scroll-animation-main ">
         <!-- <h6 class="section-sub-title">Figure Out</h6> -->
         <h1>Application <span class="text-color-primary">Development </span> </h1>
@@ -270,7 +270,7 @@
 </div>
 
   <section>
-    <div class="container  abt no-pad">
+    <div class="container  sub-section no-pad">
 
 
       <div class="problems-solved-main">
@@ -308,7 +308,7 @@
 
      <!-- Tech -->
   <section id="tech" >
-    <div class="container  abt no-pad ">
+    <div class="container  sub-section no-pad ">
       <div  class=" section-title  com-style-margin scroll-animation-main  ">
         <!-- <h6 class="section-sub-title">Figure Out</h6> -->
         <h1 class="com-style-margin ">Technology   <span class="text-color-primary"> Stack & Process </span>  </h1>
@@ -363,7 +363,7 @@
 
      <!-- Digit -->
   <section id="digi" class="bg-gray">
-    <div class="container  abt">
+    <div class="container  sub-section">
       <div class="section-title scroll-animation-main ">
         <!-- <h6 class="section-sub-title">Figure Out</h6> -->
         <h1>Digitalization <span class="text-color-primary"> </span> </h1>
@@ -410,7 +410,7 @@
 
   </section>
   <section>
-    <div class="container  abt">
+    <div class="container  sub-section">
 
 
       <div class="problems-solved-main">
@@ -450,7 +450,7 @@
 
      <!-- AI -->
   <section id="ai" class="bg-gray">
-    <div class="container  abt">
+    <div class="container  sub-section">
       <div class="section-title scroll-animation-main ">
         <!-- <h6 class="section-sub-title">Figure Out</h6> -->
         <h1>AI <span class="text-color-primary"> as a Service </span> </h1>
@@ -478,7 +478,7 @@
   </section>
 
   <section>
-    <div class="container  abt">
+    <div class="container  sub-section">
 
 
       <div class="problems-solved-main">
@@ -519,7 +519,7 @@
 
 
   <section id="buis">
-    <div class="container  abt">
+    <div class="container  sub-section">
       <div class="section-title scroll-animation-main ">
         <!-- <h6 class="section-sub-title">Figure Out</h6> -->
         <h1>Business <span class="text-color-primary">Continuity & Disaster Recovery </span> </h1>
@@ -562,7 +562,7 @@
 
   <!-- Security -->
   <section id="sec" class="bg-gray">
-    <div class="container  abt">
+    <div class="container  sub-section">
       <div class="section-title scroll-animation-main ">
         <!-- <h6 class="section-sub-title">Figure Out</h6> -->
         <h1>Security <span class="text-color-primary"> & Risk Management </span> </h1>
@@ -618,7 +618,7 @@
   </section>
 
   <section>
-    <div class="container  abt">
+    <div class="container  sub-section">
 
 
       <div class="problems-solved-main">
@@ -666,7 +666,7 @@
 
   <section class="bg-black">
 
-    <div class="container abt-footer">
+    <div class="container custom-footer">
       <div class="row">
 
         <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 ">
@@ -774,35 +774,9 @@
       }, 75);
     })();
   </script> 
-  <script>
-    (function () {
 
-      var quotes = $(".display");
-      var quoteIndex = -1;
-      var showLength = 2000;
-      var delayLength = 1000;
+  
 
-      function showNextQuote() {
-        ++quoteIndex;
-        if (quoteIndex >= quotes.length) {
-          quoteIndex = 0;
-        }
-        quotes.eq(quoteIndex % quotes.length)
-          .addClass("active")
-          .delay(showLength)
-          .queue(function (next) {
-            $(this)
-              .removeClass("active")
-              .dequeue();
-          })
-          .delay(delayLength)
-          .queue(showNextQuote);
-      }
-
-      showNextQuote();
-
-    })();
-  </script>
   <script>
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
